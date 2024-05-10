@@ -9,17 +9,24 @@
 </head>
 <body>
 
+    <div class = "container">
     <h1>Al Bhed Primer</h1>
+    <div class = "translation-forms d-flex">
+
+    <div class = "translation-atoe flex-fill">
     <h3>English to Al Bhed</h3>
     <input type="text" id="englishInput" placeholder="English to Al Bhed">
     <button class = "btn btn-primary" onclick="translateToAlBhed()">Translate</button>
     <p>Translation: <span id="alBhedOutput"></span></p>
-
+    </div>
+    <div class = "translation-etoa flex-fill">
     <h3>Al Bhed to English</h3>
     <input type="text" class = "alBhedInput" placeholder="Al Bhed to English">
     <button class = "btn btn-danger" onclick="translateToEnglish()">Translate</button>
     <p>Translation: <span class="englishOutput"></span></p>
-
+    </div>
+    </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
